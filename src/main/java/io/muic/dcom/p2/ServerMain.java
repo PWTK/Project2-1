@@ -8,13 +8,13 @@ import java.util.List;
 
 public class ServerMain {
     static class Config {
-        public static final int DEFAULT_NUM_THREADS = 4;
+        // public static final int DEFAULT_NUM_THREADS = 4;
         public static final int DEFAULT_PORT = 9090;
     }
 
     public static void main(String args[]) {
         // Spark server setup
-        threadPool(Config.DEFAULT_NUM_THREADS);
+        // threadPool(Config.DEFAULT_NUM_THREADS);
         port(Config.DEFAULT_PORT);
 
         // setup data store
